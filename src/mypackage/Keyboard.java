@@ -9,7 +9,7 @@ public class Keyboard extends HardwareDecorator {
 	}
 	
 	public String getDescription() {
-		return robot.getDescription() + ", Keyboard";
+		return robot.getDescription() + " + Keyboard";
 	}
 
 	public double cost() {
