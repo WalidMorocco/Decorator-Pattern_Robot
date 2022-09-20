@@ -13,6 +13,11 @@ public class App {
 		System.out.println(robot.getDescription()
 				+ "\n	" + robot.cost());
 		
+		robot = new Keyboard(robot);
+		
+		System.out.println(robot.getDescription()
+				+ "\n	" + robot.cost());
+		
 	}
 
 }
